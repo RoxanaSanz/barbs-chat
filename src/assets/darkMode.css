@@ -1,0 +1,11 @@
+/* Estilos de modo claro */
+:root {
+    --background-color: #f1f5f9;
+    --text-color: #000000;
+}
+
+/* Estilos de modo oscuro */
+:root[data-theme="dark"] {
+    --background-color: #333333;
+    --text-color: #f1f5f9;
+}
